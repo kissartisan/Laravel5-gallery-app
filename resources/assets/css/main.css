@@ -1,0 +1,127 @@
+/* This is the main file which includes all of the
+	SASS codes which would then be converted into
+	one main.css file
+*/
+/* HELPERS - gathers all Sass tools and helpers we’ll use across the project */
+/* SASS variables helper */
+/* SASS functions helper */
+/* Classes, placeholders & ETC helper */
+/* line 2, ../scss/helpers/_helpers.scss */
+.error {
+  background-color: #fa6900 !important;
+}
+
+/* line 6, ../scss/helpers/_helpers.scss */
+.promptCard {
+  display: none;
+}
+
+/* Paddings */
+/* line 11, ../scss/helpers/_helpers.scss */
+.xsmall-pad {
+  padding: 5px;
+}
+
+/* line 15, ../scss/helpers/_helpers.scss */
+.small-pad {
+  padding: 10px;
+}
+
+/* line 19, ../scss/helpers/_helpers.scss */
+.medium-pad {
+  padding: 20px;
+}
+
+/* line 23, ../scss/helpers/_helpers.scss */
+.large-pad {
+  padding: 30px;
+}
+
+/* SASS mixins helper */
+/* BASE - HTML tags styles and revert styles */
+/* This is for reverting the natural design of the HTML framework and the HTML itself */
+/* line 2, ../scss/base/_normalize.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../scss/base/_normalize.scss */
+html {
+  min-height: 100%;
+}
+
+/* line 11, ../scss/base/_normalize.scss */
+.noPadding {
+  padding: 0 !important;
+}
+
+/* line 15, ../scss/base/_normalize.scss */
+.noMargin {
+  margin: 0 !important;
+}
+
+/* This is for the HTML tags */
+/* line 2, ../scss/base/_typography.scss */
+body {
+  background-color: white;
+}
+
+/* line 6, ../scss/base/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #f38630;
+}
+
+/* line 10, ../scss/base/_typography.scss */
+thead {
+  background-color: #a7dbd8;
+}
+
+/* COMPONENTS - Individual site components */
+/* This is for the buttons */
+/* line 2, ../scss/components/_buttons.scss */
+.btn {
+  background-color: #f38630 !important;
+}
+
+/* This is for the cards */
+/* This is for the collapsible */
+/* This is for the modals */
+/* This is for the navbars */
+/* line 2, ../scss/components/_navbar.scss */
+.nav-wrapper {
+  background-color: #69d2e7;
+}
+
+/* This is for the sideNavs */
+/* This is for the sliders */
+/* LAYOUT - Setting some styles for the main sections of the layout, also container the grid */
+/* Footer layout */
+/* Forms layout */
+/* Header layout */
+/* Grid layout */
+/* Side bar layout */
+/* PAGES - Page specific styles (ex. about page specific styles) */
+/* Specific home page design */
+/* Specific gallery page design */
+/* line 3, ../scss/pages/_gallery.scss */
+#gallery-images img {
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 9, ../scss/pages/_gallery.scss */
+#gallery-images ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 13, ../scss/pages/_gallery.scss */
+#gallery-images li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  padding-right: 10px;
+}

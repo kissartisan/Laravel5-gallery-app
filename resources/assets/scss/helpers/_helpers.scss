@@ -1,0 +1,26 @@
+/* Classes, placeholders & ETC helper */
+.error {
+	background-color: $error-color !important;
+}
+
+.promptCard {
+	display: none;
+}
+
+/* Paddings */
+.xsmall-pad {
+	padding:5px;
+}
+
+.small-pad {
+	padding:10px;
+}
+
+.medium-pad {
+	padding: 20px;
+}
+
+.large-pad {
+	padding: 30px;
+}
+

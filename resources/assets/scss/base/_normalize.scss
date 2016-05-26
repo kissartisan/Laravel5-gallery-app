@@ -1,0 +1,17 @@
+/* This is for reverting the natural design of the HTML framework and the HTML itself */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 100%;
+}
+
+.noPadding {
+	padding: 0 !important;
+}
+
+.noMargin {
+	margin: 0 !important;
+}

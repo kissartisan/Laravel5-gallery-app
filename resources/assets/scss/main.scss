@@ -1,0 +1,34 @@
+/* This is the main file which includes all of the
+	SASS codes which would then be converted into
+	one main.css file
+*/
+
+/* HELPERS - gathers all Sass tools and helpers we’ll use across the project */
+@import 'helpers/_variables.scss';
+@import 'helpers/_functions.scss';
+@import 'helpers/_helpers.scss';
+@import 'helpers/_mixins.scss';
+
+/* BASE - HTML tags styles and revert styles */
+@import 'base/_normalize.scss';
+@import 'base/_typography.scss';
+
+/* COMPONENTS - Individual site components */
+@import 'components/_buttons.scss';
+@import 'components/_cards.scss';
+@import 'components/_collapsible.scss';
+@import 'components/_modal.scss';
+@import 'components/_navbar.scss';
+@import 'components/_sideNav.scss';
+@import 'components/_slider.scss';
+
+/* LAYOUT - Setting some styles for the main sections of the layout, also container the grid */
+@import 'layouts/_footer.scss';
+@import 'layouts/_forms.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_responsiveness.scss';
+@import 'layouts/_sidebar.scss';
+
+/* PAGES - Page specific styles (ex. about page specific styles) */
+@import 'pages/_home.scss';
+@import 'pages/_gallery.scss';
